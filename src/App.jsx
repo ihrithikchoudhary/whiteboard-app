@@ -75,7 +75,7 @@ export default function WhiteboardApp() {
     return {
       x: e.clientX - rect.left,
       y: e.clientY - rect.top,
-      pressure: e.pressure || 0.5,
+      pressure: e.pressure || 0.6,
     };
   };
 
